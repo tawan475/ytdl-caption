@@ -29,7 +29,7 @@ async function dls(urls){
         if (!ytpl.validateID(url.url)){
             var result = await download(url.url, url.langs, Path);
             console.log(`Downloaded: ${result.info.videoDetails.title}${Verbose?` at ${result.path}`:``}`);
-            return;
+            continue;
         }
         var playlist = await ytpl(url.url, { limit: Infinity });
         var playlistPath = Path + playlist.title.replace(/[\\/:*?"<>|]/g, "") + "/";
