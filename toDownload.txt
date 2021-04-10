@@ -1,0 +1,10 @@
+/*/ =========================================== /*/
+/*/ Everything after "/*/" will be removed      /*/
+/*/ Format: (URL) [LANGCODE/LANGCODE/...]       /*/
+/*/ ( ) = Required, [] = Optional, / = prefered /*/
+/*/ URL can be URL to a video or a playlist     /*/
+/*/ =========================================== /*/
+
+/*/ https://www.youtube.com/watch?v=VIDEOID en /*/ Comments...
+/*/ https://www.youtube.com/playlist?list=PLAYLISTID en /*/ Comment...
+

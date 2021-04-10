@@ -1,0 +1,31 @@
+{
+  "name": "ytdl-caption",
+  "version": "1.0.0",
+  "description": "Download a Youtube video with selected caption language",
+  "main": "DownloadWithCaption.js",
+  "dependencies": {
+    "ffmpeg-static": "^4.3.0",
+    "yt-xml2srt": "^1.3.0",
+    "ytdl-core": "latest",
+    "ytpl": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawan475/ytdl-caption.git"
+  },
+  "keywords": [
+    "youtube-caption",
+    "youtube",
+    "caption",
+    "subtitle"
+  ],
+  "author": "tawan475",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tawan475/ytdl-caption/issues"
+  },
+  "homepage": "https://github.com/tawan475/ytdl-caption#readme"
+}
